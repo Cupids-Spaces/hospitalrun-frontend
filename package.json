@@ -1,9 +1,30 @@
 {
-  "name": "@hospitalrun/frontend",
-  "version": "2.0.0-alpha.7",
-  "description": "React frontend for HospitalRun",
-  "private": false,
-  "license": "MIT",
+    "id": "/subscriptions/8c78e782-0ce3-4b28-9a6e-b3f5ef2f7b0e/resourceGroups/CupidsServices_group/providers/Microsoft.Web/staticSites/CupidsServices",
+    "name": "CupidsServices",
+    "type": "Microsoft.Web/staticSites",
+    "location": "Central US",
+    "tags": {},
+    "properties": {
+        "defaultHostname": "lemon-cliff-06fe99210.1.azurestaticapps.net",
+        "repositoryUrl": "https://github.com/Cupids-Spaces/identity-samples",
+        "branch": "main",
+        "customDomains": [],
+        "privateEndpointConnections": [],
+        "stagingEnvironmentPolicy": "Enabled",
+        "allowConfigFileUpdates": true,
+        "contentDistributionEndpoint": "https://content-dm1.infrastructure.1.azurestaticapps.net",
+        "keyVaultReferenceIdentity": "SystemAssigned",
+        "userProvidedFunctionApps": [],
+        "linkedBackends": null,
+        "provider": "GitHub",
+        "enterpriseGradeCdnStatus": "Disabled",
+        "publicNetworkAccess": null
+    },
+    "sku": {
+        "name": "Free",
+        "tier": "Free"
+    }
+
   "dependencies": {
     "@hospitalrun/components": "~3.4.0",
     "@reduxjs/toolkit": "~1.7.0",
